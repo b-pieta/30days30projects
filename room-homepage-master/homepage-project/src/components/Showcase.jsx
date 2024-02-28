@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import arrow from '../assets/images/icon-arrow.svg';
 import mobileImageHero1 from '../assets/images/mobile-image-hero-1.jpg';
 import desktopImageHero1 from '../assets/images/desktop-image-hero-1.jpg';
@@ -102,12 +103,13 @@ export default function Showcase() {
 								{item.title}
 							</h1>
 							<p className='text-slate-900 opacity-75 my-6'>{item.desc}</p>
-							<button
+							<Link
+								to='/shop' 
 								className='flex items-center gap-4 uppercase hover:opacity-75 font-bold'
 								style={{ letterSpacing: '0.7rem' }}
 							>
-								Shop Now <img src={arrow} />
-							</button>
+								Shop Now <img src={arrow} alt='Arrow' />
+							</Link>
 						</div>
 					</article>
 				))}
