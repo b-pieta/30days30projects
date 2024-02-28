@@ -5,6 +5,7 @@ import Showcase from './components/Showcase';
 import SectionTwo from './components/SectionTwo';
 import About from './components/About';
 import Contact from './components/Contact';
+import Shop from './components/Shop';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Route path="/" element={<><Showcase /><SectionTwo /></>} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/shop" element={<Shop />} />
             </Routes>
         </Router>
     );
