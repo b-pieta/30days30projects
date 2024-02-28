@@ -104,7 +104,7 @@ export default function Showcase() {
 							</h1>
 							<p className='text-slate-900 opacity-75 my-6'>{item.desc}</p>
 							<Link
-								to='/shop' 
+								to='/shop'
 								className='flex items-center gap-4 uppercase hover:opacity-75 font-bold'
 								style={{ letterSpacing: '0.7rem' }}
 							>

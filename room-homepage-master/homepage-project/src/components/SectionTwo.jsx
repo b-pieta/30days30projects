@@ -37,7 +37,6 @@ function SectionTwo() {
 						src={aboutLight}
 						alt=''
 						className='w-full lg:max-w-full h-full lg:max-h object-cover lg:-mr-40 large-screen-translate'
-
 					/>
 				</article>
 			</section>
