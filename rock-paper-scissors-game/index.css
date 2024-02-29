@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#choices img {
+    width: 100px; 
+    cursor: pointer;
+    transition: transform 0.2s; 
+}
+
+#choices img:hover {
+    transform: scale(1.1); 
+}
+
+#choices img:active {
+    transform: scale(0.9); 
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+span {
+    display: block;
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+img {
+    padding: 5px; 
+}
+
+#user-choice img, #computer-choice img {
+    width: 80px; 
+    margin-top: 10px;
+}
