@@ -1,5 +1,6 @@
 import React from 'react';
-import back from '../assets/back.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import back from '../assets/back.svg'; 
 import './SingleCard.css';
 
 function SingleCard({ card, handleChoice, flipped }) {
@@ -12,12 +13,17 @@ function SingleCard({ card, handleChoice, flipped }) {
   return (
     <div className={cardClasses} onClick={handleClick}>
       <div className="card-inner">
-        <img className='front' src={card.src} alt='card front' />
-        <img className='back' src={back} alt='card back' />
+        <div className='front'>
+        <FontAwesomeIcon icon={card.src} size="9x" style={{ color: '#a393eb' }} />
+        </div>
+        <div className='back'>
+          <img src={back} alt='card back' />
+        </div>
       </div>
     </div>
   );
 }
 
 export default SingleCard;
+
 

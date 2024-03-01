@@ -1,24 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-import bolt from './assets/bolt.svg';
-import flame from './assets/flame.svg';
-import headset from './assets/headset.svg';
-import heart from './assets/heart.svg';
-import key from './assets/key.svg';
-import musicAlt from './assets/music-alt.svg';
-import paw from './assets/paw.svg';
-import star from './assets/star.svg';
 import SingleCard from './components/SingleCard';
+import { faHeadphonesSimple, faHeart, faKey, faMusic, faPaw, faStar } from '@fortawesome/free-solid-svg-icons';
+
 
 const cardImages = [
-  { src: headset, matched: false },
-  { src: heart, matched: false },
-  { src: key, matched: false },
-  { src: musicAlt, matched: false },
-  { src: paw, matched: false },
-  { src: star, matched: false },
+  { src: faHeadphonesSimple, matched: false },
+  { src: faHeart, matched: false },
+  { src: faKey, matched: false },
+  { src: faMusic, matched: false },
+  { src: faPaw, matched: false },
+  { src: faStar, matched: false },
 ];
+
 
 function App() {
   const [cards, setCards] = useState([]);
@@ -78,7 +73,6 @@ function App() {
 
   return (
     <div className='App'>
-      <h1>Memory Game</h1>
       <button onClick={shuffleCards}>New Game</button>
       <p>Moves: {moves}</p>
       <p>Matches: {matches}</p>
