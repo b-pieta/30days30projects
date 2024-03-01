@@ -33,3 +33,19 @@ button:hover {
 	gap: 25px;
 	justify-content: center;
 }
+
+@media (max-width: 600px){
+  .App{
+    max-width: 250px;
+    height: 100vh;
+  }
+
+  .grid-card {
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  button{
+    font-size: 1em;
+  }
+}
