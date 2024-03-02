@@ -27,13 +27,13 @@ const data = [
 		id: '5',
 		question: 'What is JSX?',
 		answer:
-			'JSX stands for JavaScript XML. It is a syntax extension for JavaScript used in React to describe what the UI should look like. JSX allows you to write HTML elements in JavaScript and place them in the DOM without using functions like `createElement` or `appendChild`.',
+			'JSX stands for JavaScript XML. It is a syntax extension for JavaScript used in React to describe what the UI should look like.',
 	},
 	{
 		id: '6',
 		question: 'How do you handle events in React?',
 		answer:
-			'In React, events are handled using camelCase syntax, and you pass a function as the event handler rather than a string. For example, `onClick` instead of `onclick`. React events are wrapped in a synthetic event wrapper to ensure cross-browser compatibility.',
+			'In React, events are handled using camelCase syntax, and you pass a function as the event handler rather than a string. For example, `onClick` instead of `onclick`.',
 	},
 	{
 		id: '7',
@@ -45,7 +45,7 @@ const data = [
 		id: '8',
 		question: 'What is the virtual DOM?',
 		answer:
-			'The virtual DOM is a concept where a virtual representation of the UI is kept in memory and synced with the real DOM by a library such as ReactDOM. This process, known as reconciliation, allows React to efficiently update the UI by only rendering nodes that have changed.',
+			'The virtual DOM is a concept where a virtual representation of the UI is kept in memory and synced with the real DOM by a library such as ReactDOM.',
 	},
 	{
 		id: '9',
@@ -67,12 +67,12 @@ const data = [
     {
         "id": "12",
         "question": "What is WebAssembly?",
-        "answer": "WebAssembly (WASM) is a binary instruction format for a stack-based virtual machine. WASM is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications."
+        "answer": "WebAssembly (WASM) is a binary instruction format for a stack-based virtual machine. "
     },
     {
         "id": "13",
         "question": "What is a Promise in JavaScript?",
-        "answer": "A Promise in JavaScript is an object representing the eventual completion or failure of an asynchronous operation. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason, enabling asynchronous methods to return values like synchronous methods."
+        "answer": "A Promise in JavaScript is an object representing the eventual completion or failure of an asynchronous operation."
     },
     {
         "id": "14",
@@ -92,27 +92,27 @@ const data = [
     {
         "id": "17",
         "question": "What is GraphQL?",
-        "answer": "GraphQL is a query language for APIs and a runtime for executing those queries by using a type system you define for your data. GraphQL isn't tied to any specific database or storage engine and is instead backed by your existing code and data."
+        "answer": "GraphQL is a query language for APIs and a runtime for executing those queries by using a type system you define for your data. "
     },
     {
         "id": "18",
         "question": "What is TypeScript?",
-        "answer": "TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language. TypeScript is designed for development of large applications and transcompiles to JavaScript."
+        "answer": "TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language."
     },
     {
         "id": "19",
         "question": "What is MongoDB?",
-        "answer": "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. It is designed to handle large amounts of data and provide high performance, high availability, and easy scalability."
+        "answer": "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas."
     },
     {
         "id": "20",
         "question": "What is REST API?",
-        "answer": "REST API (Representational State Transfer) is an architectural style that defines a set of constraints to be used for creating web services. Web services that conform to the REST architectural style, called RESTful web services, provide interoperability between computer systems on the internet."
+        "answer": "REST API (Representational State Transfer) is an architectural style that defines a set of constraints to be used for creating web services."
     },
     {
         "id": "21",
         "question": "What is a Webhook?",
-        "answer": "A Webhook is a method of augmenting or altering the behavior of a web page, or web application, with custom callbacks. These callbacks may be maintained, modified, and managed by third-party users and developers who do not necessarily have the knowledge of or access to the source code of the web page or application."
+        "answer": "A Webhook is a method of augmenting or altering the behavior of a web page, or web application, with custom callbacks. "
     }
 ];
 
