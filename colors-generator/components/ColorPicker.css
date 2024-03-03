@@ -1,0 +1,23 @@
+.container {
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 8px;
+    width: fit-content;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ddd;
+  }
+  
+  button:hover {
+    background-color: #637A9F;
+  }
+  
