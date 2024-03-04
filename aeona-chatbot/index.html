@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f7f6;
+            font-family: Arial, sans-serif;
+        }
+        #chat-container {
+            width: 40%;
+            height: 50%;
+            min-width: 300px;
+            min-height: 400px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        #messages {
+            padding: 20px;
+            overflow-y: auto;
+            flex-grow: 1;
+            background-color: #fff;
+        }
+        .message {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #e7e7e8;
+            border-radius: 5px;
+            width: fit-content;
+            max-width: 80%;
+        }
+        .user-message {
+            align-self: flex-end;
+            background-color: #009688;
+            color: #fff;
+        }
+        #message-input {
+            border: none;
+            padding: 20px;
+            width: calc(100% - 40px);
+            box-sizing: border-box;
+        }
+        #send-button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #009688;
+            color: #fff;
+            cursor: pointer;
+        }
+        #send-button:hover {
+            background-color: #00796b;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="messages"></div>
+        <input type="text" id="message-input" placeholder="Type a message...">
+        <button id="send-button">Send</button>
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+</html>
