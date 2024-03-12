@@ -1,29 +1,34 @@
-
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 150px); 
-    grid-template-rows: repeat(3, 150px); 
-    gap: 5px;
+	display: grid;
+	grid-template-columns: repeat(3, 150px);
+	grid-template-rows: repeat(3, 150px);
+	gap: 5px;
 }
 
 .square {
-    background-color: #f0f0f0; 
-    border: 2px solid #ddd; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0; 
+	background-color: #f0f0f0;
+	border: 2px solid #ddd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0;
 }
 
 h2 {
-    margin: 10px 0;
+	margin: 10px 0;
 }
 
+.mole {
+	background-image: url('mole.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
