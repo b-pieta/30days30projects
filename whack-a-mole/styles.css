@@ -32,3 +32,25 @@ h2 {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 600px) {
+	body {
+		flex-direction: column;
+		height: auto;
+		padding: 20px;
+	}
+
+	.grid {
+		grid-template-columns: repeat(3, 100px);
+		grid-template-rows: repeat(3, 100px);
+	}
+
+	.square {
+		border: 1px solid #ddd;
+	}
+
+	h2 {
+		font-size: 16px;
+		margin: 5px 0;
+	}
+}
